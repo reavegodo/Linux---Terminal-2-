@@ -1,0 +1,77 @@
+$ tree
+.
+├── fictional
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   └── cybertron.jpeg
+├── inhabited
+│   ├── arrakis.jpeg
+│   ├── coruscant.jpeg
+│   ├── cybertron.jpeg
+│   └── earth.jpeg
+└── real
+    ├── gas-giants
+    │   ├── jupiter.jpeg
+    │   ├── neptune.jpeg
+    │   ├── saturn.jpeg
+    │   └── uranus.jpeg
+    └── telluric
+        ├── earth.jpeg
+        ├── mars.jpeg
+        ├── mercury.jpeg
+        └── venus.jpeg
+
+brew install tree
+  586  tree
+  587  cd
+  588  tree
+  589  cd
+  590  brew install wget
+  591  brew install unzip
+  592  brew ls
+  593  cd ~/quetes/shell/
+  594  wget https://github.com/bhubr/bhubr.github.io/raw/master/wild/planets.zip
+  595  unzip planets.zip
+  596  tree
+  597  cd planets
+  598  mkdir -p real fictional inhabite
+  599  ls
+  600  mn mv
+  601  man mv
+  602  man mv
+  603  mv inhabite inhabited
+  604  ls
+  605  cd real/
+  606  mkdir telluric gas-giants dwarf-planets
+  607  ls
+  608  mv ../earth.jpeg ../mars.jpeg ../mercury.jpeg ../venus.jpeg telluric/
+  609  ls
+  610  ls telluric/
+  611  mv ../jupiter.jpeg ../neptune.jpeg ../saturn.jpeg ../uranus.jpeg gas-giants/
+  612  mv ../pluto.jpeg dwarf-planets/
+  613  cd ..
+  614  ls
+  615  mv arrakis.jpeg coruscant.jpeg cybertron.jpeg fictional/
+  616  man cp
+  617  tree
+  618  man cp
+  619  cp fictional/* inhabited/
+  620  cd inhabited/
+  621  ls
+  622  cd fictional
+  623  cd ../fictional/
+  624  cd ../inhabited/
+  625  cd ../fictional/
+  626  ls ../inhabited/
+  627  man rm
+  628  rm -rf ../real/dwarf-planets/
+  629  cd real
+  630  cd ...
+  631  cd ...
+  632  cd ..
+  633  ls
+  634  ls real/
+  635  tree
+  636  cp real/telluric/earth.jpeg  inhabited/
+  637  tree
+  638  history
